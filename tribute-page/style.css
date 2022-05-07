@@ -2,7 +2,12 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.title {
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+}
 .sub-title {
+    margin-top: 0;
     font-weight: 300;
 }
 .main {
@@ -21,7 +26,8 @@ body {
 
 .image-container {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     background-color: white;
     margin: 0 30px;
 }
@@ -32,3 +38,35 @@ body {
     align-items: center;
 }
 
+.biography {
+    min-width: 50%;
+    max-width: 65%;
+    
+    font-weight: 100;
+    color: #333333;
+}
+
+.quote {
+    display: flex;
+    min-width: 50%;
+    max-width: 65%;
+    flex-direction: column;
+    margin: 30px 370px
+}
+
+.quote-text {
+    align-self: flex-start;
+}
+.qoute-author {
+    align-self: flex-end;
+}
+li {
+    padding-bottom: 15px;
+}
+
+.footer {
+    display: block;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: 500;
+}
